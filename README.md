@@ -43,26 +43,26 @@ In order to run the script on google Colab:
 
 |     Evaluation metric for classsification    |     VGG16    |     ResNet50                                                                                                                       |
 |----------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------|
-|     Accuracy                                 |              |     0.145                                                                                                                          |
-|     F1-Score                                 |              |     0:  0.142     1:  0.168     2:  0.0002     3:  0.00000531     4:  0.00000532     5:  0.208     6:  0.00000802     7:  0.179    |
-|     Cohens Kappa                             |              |     0.02347678                                                                                                                     |
-|     Krippendorfs Alpha                       |              |     0.50128144                                                                                                                     |
-|     Area Under Curve                         |              |     0.50128144                                                                                                                     |
-|     AUC Precision Recall                     |              |     0.995433                                                                                                                       |
-                                                                                                                                  |
+|     Accuracy                                 |      0.2345        |     0.145                                                                                                                          |
+|     F1-Score                                 |     0:  0.2718   ,  1: 0.3932  ,   2:  0.0009304  ,   3:  0.0002458 ,    4:  0.0001625  ,   5:  0.3041   ,  6:  0.0002598   ,  7:  0.3046         |     0:  0.142  ,   1:  0.168    , 2:  0.0002   ,  3:  0.00000531  ,   4:  0.00000532  ,   5:  0.208 ,    6:  0.00000802   ,  7:  0.179    |
+|     Cohens Kappa                             |      0.12521        |     0.02347678                                                                                                                     |
+|     Krippendorfs Alpha                       |         0.12     |     0.50128144                                                                                                                     |
+|     Area Under Curve                         |        0.4700      |     0.50128144                                                                                                                     |
+|     AUC Precision Recall                     |         0.9953     |     0.995433                                                                                                                       |
+                                                                                                                                  
 ## b. Valence
 |     Measures for Valence    |     VGG16    |     ResNet50      |
 |-----------------------------|--------------|-------------------|
-|     RMSE                    |     -        |     0.48378897    |
-|     Correlation             |     -        |     0.13519513    |
-|     CCC                     |     -        |     0.03560       |
+|     RMSE                    |0.508141      |     0.48378897    |
+|     Correlation             |0.2638869     |     0.13519513    |
+|     CCC                     |0.240682      |     0.03560       |
 
 ## c. Arousal
 |     Measures for Arousal    |     VGG16    |     ResNet50    |
 |-----------------------------|--------------|-----------------|
-|     RMSE                    |     -        |     0.380309    |
-|     Correlation             |     -        |     0.03687     |
-|     CCC                     |     -        |     0.008140    |
+|     RMSE                    | 0.42576      |     0.380309    |
+|     Correlation             |0.018337      |     0.03687     |
+|     CCC                     |0133316       |     0.008140    |
 
  
 
@@ -75,7 +75,9 @@ In order to run the script on google Colab:
 
 
 ### VGG16
+<img width="532" alt="corr-vgg" src="https://user-images.githubusercontent.com/57056774/235651680-85dee8bc-6a90-49ce-b786-9a794f39a6e7.PNG">
 
+<img width="552" alt="inc-vgg" src="https://user-images.githubusercontent.com/57056774/235651649-140ef270-dcd5-4d45-9ca0-e7c973eb2437.PNG">
 
 # 6. Authors
 Mariam Nasim - 399635
