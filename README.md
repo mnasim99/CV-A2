@@ -1,4 +1,4 @@
-# CV-A2
+# Semantic Segmentation
 # 1. Network Details
 Ive used UNET with efficientnet and mobilenet bases. UNET is an encoder decoder architecture. The encoder part can be any CNN architecture so ive used efficientnet and mobilenet and decoder part is bascially resizing the feature map to the original size of the image with minimum information.
 Pretrained weights of imagenet were loaded in EfficientNetB0 block. This was used as an encoder. The decoder block was made using deconvolution layers for  resizing map to original size.
